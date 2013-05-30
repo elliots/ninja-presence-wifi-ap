@@ -1,0 +1,17 @@
+{
+  "name": "ninja-wifi-location",
+  "version": "0.0.1",
+  "description": "A presence driver for NinjaBlocks for Wifi access points",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Elliot Shepherd",
+  "license": "MIT",
+  "dependencies": {
+    "wifi_location": "latest",
+    "underscore": "~1.4.4",
+    "ninja-presence-base": "git://github.com/elliots/ninja-presence-base"
+  }
+}
