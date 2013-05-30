@@ -4,6 +4,7 @@ var wifiLocation = require('wifi_location');
 module.exports = Presence;
 
 Presence.prototype.G = 'wifi';
+Presence.prototype.name = 'Presence - Wifi AP';
 Presence.prototype.scan = function() {
   var self = this;
 
