@@ -1,5 +1,5 @@
 {
-  "name": "ninja-wifi-location",
+  "name": "ninja-presence-wifi-ap",
   "version": "0.0.1",
   "description": "A presence driver for NinjaBlocks for Wifi access points",
   "main": "index.js",
@@ -11,7 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "wifi_location": "latest",
-    "underscore": "~1.4.4",
     "ninja-presence-base": "git://github.com/elliots/ninja-presence-base"
   }
 }
