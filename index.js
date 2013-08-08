@@ -5,6 +5,9 @@ module.exports = Presence;
 
 Presence.prototype.G = 'wifi';
 Presence.prototype.name = 'Presence - Wifi AP';
+Presence.prototype.V = 0;
+Presence.prototype.D = 261;
+
 Presence.prototype.scan = function() {
   var self = this;
 
